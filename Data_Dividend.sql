@@ -1,8 +1,6 @@
 INSERT INTO dividend(company, fiscal_year)
 VALUES 
     ('AHPC',20702071),
-
-    ('AHPC',20702071),
     ('AHPC',20712072),
     ('AHPC',20732074),
     ('AHPC',20762077),
