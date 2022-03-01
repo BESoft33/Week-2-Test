@@ -7,4 +7,4 @@ with value_stocks as (
 	
 from dividend d
 )
-select distinct valuable from value_stocks where valuable is not null;
+select distinct to_json(valuable) from value_stocks where valuable is not null;
