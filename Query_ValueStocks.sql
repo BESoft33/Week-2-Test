@@ -7,4 +7,5 @@ with value_stocks as (
 	
 from dividend d
 )
-select distinct to_json(valuable) from value_stocks where valuable is not null;
+select array(
+ 	select to_json(valuable) from value_stocks where valuable is not null) banks;
